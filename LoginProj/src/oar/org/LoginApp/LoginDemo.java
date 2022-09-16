@@ -31,7 +31,7 @@ public class LoginDemo
 			if(rs.next())
 			{
 				String name=rs.getString(1);
-				System.out.println("Welcome"+name+"...");
+				System.out.println("Welcome "+name+"...");
 			}
 			else
 			{
